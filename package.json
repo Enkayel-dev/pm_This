@@ -1,0 +1,38 @@
+{
+  "name": "lovable-pm-agent",
+  "version": "1.0.0",
+  "description": "A project management agent system for building applications with Lovable.dev best practices",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "lpm": "bin/lpm.js",
+    "lovable-pm": "bin/lpm.js"
+  },
+  "scripts": {
+    "start": "node bin/lpm.js",
+    "dev": "node --watch bin/lpm.js",
+    "test": "echo \"Tests coming soon\" && exit 0"
+  },
+  "keywords": [
+    "lovable",
+    "project-management",
+    "ai",
+    "development",
+    "agent",
+    "pm",
+    "workflow"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "chalk": "^5.3.0",
+    "commander": "^12.0.0",
+    "dotenv": "^16.4.5",
+    "inquirer": "^9.2.15",
+    "ora": "^8.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
